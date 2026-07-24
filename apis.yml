@@ -1,7 +1,28 @@
 aid: broadvision
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/broadvision.png
 name: Broadvision
-description: Broadvision is a company surfaced as a portfolio company of mayfield and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  BroadVision spans two chapters of Dr. Pehong Chen's technology work. BroadVision,
+  Inc. (NASDAQ: BVSN), founded in 1993 and backed by Mayfield, was a pioneer of
+  e-commerce and enterprise self-service portal software and later the Vmoso
+  enterprise collaboration platform; the operating company was acquired by ESW
+  Capital in 2020. The broadvision.com domain is now home to BroadVision Group
+  (BVG), a US-based private asset management firm formed in 2006 that funds,
+  incubates, and operates ventures across artificial intelligence, cleantech,
+  fintech, healthtech, biotech, medtech, semiconductors, and cloud/big-data. The
+  company does not currently publish a public developer API, SDK, or
+  documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/broadvision/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,37 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Investment
+- Venture Capital
+- Private Equity
+- Asset Management
+- Digital Transformation
+- Enterprise Software
+- Collaboration
 apis: []
+common:
+- type: DomainSecurity
+  url: security/broadvision-domain-security.yml
+- type: Website
+  url: https://broadvision.com/
+- type: About
+  url: https://broadvision.com/about-us/
+- type: Portfolio
+  url: https://broadvision.com/portfolio/
+- type: Team
+  url: https://broadvision.com/team/
+- type: Support
+  url: https://broadvision.com/contact/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
